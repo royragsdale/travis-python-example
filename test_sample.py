@@ -5,7 +5,7 @@ def test_add_and_one_2_3():
     assert add_and_one(2,3) == 6
 
 def test_add_and_one_0_2():
-    assert add_and_one(0,2) == 2
+    assert add_and_one(0,2) == 3
 
 def test_add_negatives():
     assert add_and_one(-1,-2) == -2
@@ -18,7 +18,7 @@ def test_double_2():
     assert double(2) == 4
 
 def test_double_negatives():
-    assert double(-2) == 4
+    assert double(-2) == -4
 
 # tests for hello
 def test_say_hello_name():
