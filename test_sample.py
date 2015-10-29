@@ -1,4 +1,4 @@
-from sample import add_and_one,double,say_hello
+from sample import add_and_one,double,say_hello,num_speak
 
 # tests for add_and_one
 def test_add_and_one_2_3():
@@ -27,3 +27,8 @@ def test_say_hello_name():
 def test_say_hello_number():
     assert say_hello(3) == "hello 3"
  
+def rest_num_speak_42():
+    assert num_speak(42) == "forty-two"
+
+def rest_num_speak_0():
+    assert num_speak(0) == "zero"
